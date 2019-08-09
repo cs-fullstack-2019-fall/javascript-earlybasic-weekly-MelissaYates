@@ -31,9 +31,8 @@ if(userEntry===1 ||userEntry===2){
 						}
 }
 }
-else{
 		prompt("Enter q to quit");
-	}
+	
 
 				}
 	
