@@ -17,11 +17,11 @@ if(userEntry===1 ||userEntry===2){
 				}
 		else(userEntry===2)
 				{
-					var userEntryA = prompt("Do you want to add or subtract?(type 'add' to do add.")
+					var userEntryA = prompt("Do you want to add or subtract?(type 'a' to do add.")
 					var add=0;
 					var userEntry1 = parseInt(prompt("Please enter a number"));
 					var userEntry2 = parseInt(prompt("Please enter a second number"));
-					if(userEntryA===add)
+					if(userEntryA==='a')
 						{
 					for(var x = userEntry1; x<=userEntry2; x++)
 						{
@@ -31,11 +31,27 @@ if(userEntry===1 ||userEntry===2){
 						}
 }
 }
-		prompt("Enter q to quit");
+		prompt("Enter 'q' to quit");
 	
 
 				}
 	
+//Phase 2
+alert("Please count by twos");
+var userEntry3 = parseInt(prompt("Please enter a number."))
+for(x=1; x<=userEntry3; x+2)
+{
+	console.log(x);
+	var userRes = prompt("Would you like to subtract?(Please enter 's')");
+	userRes='s';
+	if(userRes===s){
+		userEntry4=parseInt(prompt("Please enter a number."));
+		userEntry5=parseInt(prompt("Please enter a second number."));
+		alert("The difference is: " + (userEntry5 - userEntry4));
+	}
+	
+
+}
 
 		
 	
